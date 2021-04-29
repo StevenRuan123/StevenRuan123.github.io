@@ -4,6 +4,7 @@
     <title> Team 1's HTML webpage</title>
     <link rel = "stylesheet" href= "abbie.css">
     <link rel = "stylesheet" href= "Mitchell.css">
+    <link rel = "stylesheet" href= "Steven.css"
 
     <strong>
        Its bold, so pay attention!
@@ -13,9 +14,11 @@
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: brown;
+    margin: 50px;
 }
-   </style>
+    </style>
 </head>
+
  <!--start of Mitchell's section-->
 
 <body>
@@ -48,6 +51,7 @@ p {
         <li>Eggs</li>
         <li>Toast</li>
         <li>Milk</li>
+    </ol>
  <!--end of Mitchell's section-->
  <p>We <em>are</em> Number one!</p>
 =======
@@ -102,18 +106,19 @@ p {
     <!--End of Abbie's Section-->
 
     <!--Start of Steven's Section-->
-    <h1>Steven's Section Header</h1>
+    <h1 style="color:yellow;">Steven's Section Header</h1>
 
     <p>Here comes <strong>My Section!</strong> <em> Shhh, my stuff is about to come up...</em></p>
 
     <div>Here is my divider</div>
 
     <table>
-        <!--Mark's Comment: same comment as before... I would suggest you don't put in a tbody unless you also have a thead, but, in this case, the contents of the first row is actually appropriate for the header section of the table, so I'd put the first row in a thead and the other row in a tbody.-->
-        <tbody>
+        <thead>
             <tr><!--Mark's Comment: for the first row in a table, you want to specify how many columns wide the table is. This single th tag means that this table is only one column wide, but in the next row down, you specify 4 td tags, which is confusing. If you want this single th tag to span across 4 columns, you should put the attribute colspan="4" within the th element.-->
-                <th>Steven's Table</th>
+                <th class="steven">Steven's Table</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>This</td>
                 <td>is</td>
@@ -125,12 +130,12 @@ p {
 
         <h1>My favoutie games</h1>
         <ul>
-            <li>League of Legends</li>
+            <li id="steven2">League of Legends</li>
             <li>The Witcher 3</li>
             <li>God of War</li>
         </ul>
 
-        <h1>My favourite places</h1>
+        <h1 class="steven">My favourite places</h1>
         <ol>
             <li>Shanghai</li>
             <li>Tokyo</li>
@@ -140,6 +145,6 @@ p {
     <img src="https://www.uwb.edu/getattachment/admissions/apply/w-header-for-apply-page.jpg?lang=en-US&width=750&height=282" alt="UW Bothell">
 
     <!--End of Steven's Section-->
+
 </body> 
-    <!--Mark's Comment: as stated earlier, each webpage should have a single html, single head, and single body tag. All of the contents that you want viewable should be in the body tag. therefore, the closing /body tag should be the last thing you see before the closing /html tag.-->
 </html>

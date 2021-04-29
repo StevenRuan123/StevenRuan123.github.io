@@ -1,0 +1,15 @@
+h1{
+
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.steven{
+    font-weight: 300;
+    color: orangered;
+}
+
+#steven2{
+    font-family: cursive;
+    padding: 60px;
+}
