@@ -3,16 +3,18 @@
 <head> 
     <title> Team 1's HTML webpage</title>
     <link rel = "stylesheet" href= "abbie.css">
+    <!--Mark Comment: generally, you want everything lowercase! Rename Mitchell.css and Steven.css to mitchell.css and steven.css-->
     <link rel = "stylesheet" href= "Mitchell.css">
+    <!--Mark Comment: the below link tag is missing a closing greater than sign. Before submitting, be sure to check for errors using the debug panel in VSCode!-->
     <link rel = "stylesheet" href= "Steven.css"
 
+    <!--Mark Comment: there shouldn't be text or a strong tag within the head tag.-->
     <strong>
         Its bold, so pay attention!
 
     </strong>
        
- 
-
+    <!--Mark Comment: there's no evidence that Mitchell and Abbie know how to define classes and ids.-->
    <style>
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -25,11 +27,14 @@ p {
  <!--start of Mitchell's section-->
 
 <body>
+    <!--Mark Comment: put meta tags within the head tag.-->
         <meta charset="utf-8">
+        <!--Mark Comment: these images are broken because you're referring to a folder location that doesn't exist. the folder "images" is outside of this document's current folder so either move images into Tests or move webpage.html out of Tests.-->
     <img src="images/Pentium_II_original_case_badge.png" alt="Pentium">
     <header>
         <img src= "images/Pentium_II_original_case_badge.png" alt="Pentium">
         <h1>
+            <!--Mark Comment: usually, div tags are not nested within h tags. h and p define specific blocks or types of text, while div defines sections of a page that holds those blocks of text. You've got the opposite of that going on here.-->
             <div> 
                 May as well add my divider here and all.  
             </div>
@@ -40,6 +45,7 @@ p {
             Yeah me too.
         </h2>
     </header>
+    <!--Mark Comment: now that you're using CSS, you want to stop using the border and width attributes and rely as much as possible on stylesheets to format how an element appears on the page.-->
     <table border="10" width="40%">
         <tr>
             <th>Month</th>
@@ -66,6 +72,7 @@ p {
 
     <p> Here's <strong>MY</strong> paragraph! <em>Super cool!</em> lol. Down below is my table! I tried to make it <span style="color: aqua">AQUA</span> but failed lol.</p>
 
+    <!--Mark Comment: read my comment on Mitchell's table.-->
     <table border="5" width="50%">
             <tr>
                 <td width="20%">Here</td>
@@ -118,6 +125,7 @@ p {
     <table>
         <thead>
             <tr><!--Mark's Comment: for the first row in a table, you want to specify how many columns wide the table is. This single th tag means that this table is only one column wide, but in the next row down, you specify 4 td tags, which is confusing. If you want this single th tag to span across 4 columns, you should put the attribute colspan="4" within the th element.-->
+                <!--Mark Comment: When I point out something to fix, I expect it to be fixed.-->
                 <th class="steven">Steven's Table</th>
             </tr>
         </thead>
@@ -131,6 +139,7 @@ p {
         </tbody>
     </table>
 
+    <!--Mark Comment: you misspelled favorite.-->
         <h1>My favoutie games</h1>
         <ul>
             <li id="steven2">League of Legends</li>
