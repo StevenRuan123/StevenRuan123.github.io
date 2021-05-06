@@ -4,13 +4,13 @@ p{
     text-align: left;
 }
 
-p.firstp{
+#mitchell1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-style: italic;
 }
 
-#h1id:hover{
+#Mitchell2{
     color: green;
     font-family: monospace;
     font-size: medium;
