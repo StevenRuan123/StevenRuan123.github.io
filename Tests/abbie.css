@@ -1,21 +1,40 @@
-p {
-    color: aqua;
-    font-family: 'Courier New', Courier, monospace;
+.abbie {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-size: medium;
+    border: 2px solid darkmagenta;
 }
 
-p.firstp{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+p.firstp {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    font-size: large;
+    border: 2px solid darkblue;
 }
 
-#h1id:hover{
-    color: aqua;
+#h2id:hover {
+    color: lightcoral;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-size: xx-large;
+    border: 2px solid darkcyan;
+    text-align: center;
 }
 
-table, th, td {
-  border: 1px solid black;
+.tableA {
+    margin: auto;
+    font-size: 20px;
+    border: 5px solid darkblue;
+}
+
+.tableA th {
+    color: firebrick;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+.tableA td {
+    color: firebrick;
+    text-align: left;
+    border: 5px solid blue;
 }
